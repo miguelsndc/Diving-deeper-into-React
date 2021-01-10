@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 // import Setup from './content/1-useState/1-error-example'
 // import Setup from './content/1-useState/2-useState-basics'
@@ -15,14 +15,18 @@ import React from 'react'
 // import Setup from './content/3-conditional-rendering/3-show-hide'
 
 // import Setup from './content/4-forms/1-controlled-inputs'
-import Setup from './content/4-forms/2-multiple-inputs'
+// import Setup from './content/4-forms/2-multiple-inputs'
+
+// import Setup from "./content/5-useRef/1-useRef-basics";
+
+import Setup from "./content/6-useReducer";
 
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <Setup />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
