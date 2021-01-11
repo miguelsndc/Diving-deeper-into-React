@@ -19,8 +19,9 @@ import React from "react";
 
 // import Setup from "./content/5-useRef/1-useRef-basics";
 
-import Setup from "./content/6-useReducer";
+// import Setup from "./content/6-useReducer";
 
+import Setup from "./content/8-useContext/1-context-api";
 function App() {
   return (
     <div className="container">

@@ -1,8 +1,9 @@
 import React, { useState, useReducer } from "react";
+
 import Modal from "./Modal";
-import { data } from "../../data";
 import { reducer } from "./reducer.js";
-// reducer function
+
+// import { data } from "../../data";
 
 const defaultState = {
   people: [],
